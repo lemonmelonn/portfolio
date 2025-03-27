@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devan Asokan - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: justified;
+            background: url('C:\\Users\\User\\Downloads\\websitebg.jpg') no-repeat center center fixed;
+            background-size: cover; /* Ensures full coverage */
+            color: black;
+        }
+        
+        nav a:hover, nav a.active {
+            border-bottom: 2px solid white;
+        }
+
+        .content {
+            display: none;
+            padding: 20px;
+        }
+        .active {
+            display: block;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.95); /* Slight transparency */
+        }
+
+        .header-container {
+            display: flex;        /* Align items horizontally */
+            align-items: center;  /* Center items vertically */
+            justify-content: center; /* Center the content */
+            gap: 15px;            /* Adds space between image & title */
+        }
+
+        .header-image {
+            height: 80px;  /* Adjust image size */
+            width: 80px;
+            border-radius: 50%; /* Makes it circular (optional) */
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1000px;
+            margin: 20px auto;
+            box-shadow: 5px 5px 0px #444, 10px 10px 0px #222; /* Multiple shadows */
+            transform: translateY(-2px); /* Slight raise */
+            transition: 0.2s ease-in-out;
+            opacity: 0.95;
+        }
+    </style>
+
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('.content');
+            sections.forEach(section => section.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+            document.querySelectorAll('nav a').forEach(link => link.classList.remove('active'));
+            document.querySelector(`nav a[href='#${sectionId}']`).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+        <header>
+            <img src="C:\Users\User\OneDrive - Asia Pacific University\Desktop\Operation Sana\Resume\1733980596064.jpeg" alt="Logo" class="header-image">
+            <h1 class="main-title">DEVAN ASOKAN</h1>
+            <h2>Aspiring Data Scientist | Undergraduate Student</h2>
+        </header>
+
+            <div class="section">
+                <h2>ABOUT ME</h2>
+                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                <p>Hello there! 👋🏾</p>
+                <p>I am currently a Year 2 Degree student at Asia Pacific University. My main objective is to acquire a position as a data scientist. As the journey will be full of challenges, I am always ready to learn new abilities along the way and ultimately improve my skills by getting guidance from experienced personnel and self-learning approaches.</p>
+            </div>
+
+            <div class="section">
+                <h2>EDUCATION</h2>
+                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                <h4>🎓 Bachelor's Degree in Computer Science (Data Analytics) - APU (2024 - Present)</h4>
+                <p>Current CGPA: NA</p>
+                <p>Relevant Modules: Programming for Data Analysis, Data Management</p>
+                <h4><br>🎓 Diploma in ICT (Data Informatics) - APU (2022 - 2024)</h4>
+                <p>CGPA: 3.71</p>
+                <p>Relevant Modules: Behavioural Science and Marketing Analytics, Introduction to Data Analytics, Introduction to Artificial Intelligence</p>
+
+                <h4><br>🏫 Sijil Pelajaran Malaysia 2021 - SMK Seksyen 4 Bandar Kinrara</h4>
+                <p>Grade: 3A+, 4A, 2A-</p>
+            </div>
+
+            <div class="section">
+                <h2>MY PROJECTS</h2>
+                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                <h4>⚽ Premier League Goals Prediction</h4>
+                <p>- Built a custom algorithm that predicts the number of goals scored by Premier League teams using shots on target</p>
+                <p>- Used data from 2022/23 PL season, 84.97% R-squared value</p>
+                <h4><br>🔎 Clustering Analysis</h4>
+                <p>- Application of K-Means Clustering to group specific countries together</p>
+                <p>- Successfully visualized different clusters of nations (Developed, Developing, Under-developed)</p>
+                <h4><br>📁 E-Library Management System</h4>
+                <p>- Used SQL commands to create and insert data into library database tables</p>
+                <p>- Implementation of advanced SQL queries to extract information based on specific requests</p>
+                <h4><br>🤖 Campus Chatbot for APU Students</h4>
+                <p>- Simple prototype of a responsive chatbot that assists students, lecturers and staff</p>
+                <p>- Built using Engati, allows users to type in specific prompts and choose from options given</p>
+                <p>   </p>
+                <p>**Implementation of these projects can be found on my GitHub repositories**</p>
+            </div>
+
+            <div class="section">
+                <h2>COMPETITIONS</h2>
+                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                <h4>🏆 UMDAC Datathon 2024 - FINALIST</h4>
+                <p>- Performed statistical analysis and machine learning algorithms on a bitcoin dataset</p>
+                <p>- Conducted time-series analysis to identify patterns from specific graphs</p>
+            </div>
+
+            <div class="section">
+                <h2>SKILLS</h2>
+                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                <h3>📊 Data Science</h3>
+                <ul>
+                    <li>Exploratory Data Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Statistical Analysis</li>
+                    <li>Hypothesis Testing</li>
+                    <li>Data Visualization</li>
+                    <li>Data Storytelling</li>
+                </ul>
+                <h3><br>⚙ Tools</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>SQL</li>
+                    <li>SAS</li>
+                    <li>Power BI</li>
+                    <li>Jupyter Notebook</li>
+                </ul>
+                <h3><br>🗣 Languages</h3>
+                <ul>
+                    <li>English (Fluent)</li>
+                    <li>Malay (Fluent)</li>
+                    <li>Tamil (Intermediate)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>LINKS AND CONTACTS</h2>
+                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                <li><a href="https://www.linkedin.com/in/devan-asokan/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/lemonmelonn" target="_blank">GitHub</a></li>
+                <li><a href="mailto:devanasokan@gmail.com">Email Me</a></li>
+                <li><a href="tel:+6017-6120969">Phone: 017-6120969</a></li>
+            </div>
+</body>
+</html>
