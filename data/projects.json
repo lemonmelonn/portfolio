@@ -1,0 +1,24 @@
+[
+  {
+    "name": "LyricLens",
+    "description": "NLP-based classification of song lyrics for child appropriateness.",
+    "technologies": [
+      "Python",
+      "PyTorch",
+      "BERT",
+      "Hugging Face"
+    ],
+    "github": "https://github.com/...",
+    "featured": true
+  },
+  {
+    "name": "Football Scout Agent",
+    "description": "An AI-powered football scouting assistant.",
+    "technologies": [
+      "TypeScript",
+      "LLM",
+      "API"
+    ],
+    "github": "https://github.com/..."
+  }
+]

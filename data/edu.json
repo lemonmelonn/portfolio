@@ -1,0 +1,41 @@
+[
+  {
+    "qualification": "Sijil Pelajaran Malaysia 2021 (SPM)",
+    "institution": "SMK Seksyen 4 Bandar Kinrara",
+    "grade": "9A",
+    "date": "March 2022"
+  },
+  {
+    "qualification": "Diploma in ICT (Data Informatics)",
+    "institution": "Asia Pacific University",
+    "cgpa": "3.71",
+    "start_date": "August 2022",
+    "end_date": "October 2024",
+    "relevant_modules": [
+      "Introduction to Data Analytics",
+      "Introduction to Artificial Intelligence",
+      "Behavioral Science and Marketing Analysis",
+      "Programming with Python",
+      "Database Systems"
+    ]
+  },
+  {
+    "qualification": "Bachelor’s Degree in Computer Science (Data Analytics)",
+    "institution": "Asia Pacific University",
+    "cgpa": "3.85",
+    "achievement": "Vice Chancellor’s List 2024/25",
+    "start_date": "November 2024",
+    "end_date": "Present",
+    "relevant_modules": [
+      "Programming for Data Analysis",
+      "Data Management",
+      "Object-Oriented Programming with Java",
+      "Data Structures",
+      "Data Mining and Predictive Modelling",
+      "Business Intelligence Systems",
+      "Text Analytics",
+      "Optimization and Deep Learning",
+      "Database Security Systems"
+    ]
+  }
+]

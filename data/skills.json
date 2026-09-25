@@ -1,0 +1,32 @@
+{
+  "technical_skills_and_tools": [
+    "Python",
+    "Data Pre-Processing",
+    "Natural Language Processing",
+    "R Programming",
+    "Machine / Deep Learning",
+    "Statistical Analysis",
+    "SAS Viya",
+    "SQL",
+    "Data Visualization",
+    "Hypothesis Testing",
+    "PyTorch",
+    "Hyperparameter Tuning",
+    "Power BI",
+    "Git/GitHub",
+    "Microsoft Excel",
+    "n8n Automation",
+    "Transformers",
+    "REST/API Integration",
+    "Time Series Forecasting",
+    "Hugging Face"
+  ],
+  "soft_skills": [
+    "Credit Risk Modeling",
+    "Fraud Detection",
+    "Customer Analytics",
+    "Marketing Analytics",
+    "Supply Chain Analytics",
+    "Financial Services"
+  ]
+}

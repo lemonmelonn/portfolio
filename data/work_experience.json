@@ -1,0 +1,23 @@
+[
+  {
+    "position": "Data Science Intern",
+    "company": "MoneyMatch Sdn Bhd",
+    "start_date": "September 2025",
+    "end_date": "January 2026",
+    "description": [
+      "Automated partner balance and COI calculations using n8n, reducing daily processing time from more than 2 hours to 10 minutes and eliminating 100% of manual workload for the operations team",
+      "Automated the partner reconciliation process by building a simple upload-based interface that preprocesses and compares transaction records, enabling the finance team to complete reconciliations for any month in around 5 seconds and clearing backlogs that had been pending for multiple months",
+      "Rebuilt internal data applications from R to Python, improving scalability and enabling better concurrency handling, which enhanced system performance and supported more efficient data processing at MoneyMatch"
+    ]
+  },
+  {
+    "position": "Networking Intern",
+    "company": "WLC Solutions",
+    "start_date": "August 2024",
+    "end_date": "October 2024",
+    "description": [
+      "Assisted in networking tasks such as IP addressing, troubleshooting and network planning",
+      "Supported the team in implementing VLANs and subnetting strategies to optimize network segmentation and performance"
+    ]
+  }
+]
