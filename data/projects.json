@@ -1,24 +1,40 @@
 [
   {
     "name": "LyricLens",
-    "description": "NLP-based classification of song lyrics for child appropriateness.",
-    "technologies": [
-      "Python",
-      "PyTorch",
-      "BERT",
-      "Hugging Face"
-    ],
-    "github": "https://github.com/...",
+    "category": "Deep Learning",
+    "description": "NLP-based classification of song lyrics for child appropriateness, fine-tuning transformer models to flag explicit content with strong precision.",
+    "technologies": ["Python", "PyTorch", "BERT", "Hugging Face"],
+    "github": "https://github.com/lemonmelonn/devanasokan_fyp",
     "featured": true
   },
   {
-    "name": "Football Scout Agent",
-    "description": "An AI-powered football scouting assistant.",
-    "technologies": [
-      "TypeScript",
-      "LLM",
-      "API"
-    ],
-    "github": "https://github.com/..."
+    "name": "LUCID Smart-Grid Analytics",
+    "category": "Time Series Forecasting",
+    "description": "Global Champion (Energy Track) at the SAS Hackathon 2025. A smart-grid analytics solution built with SAS Viya and open-source tooling that analyses continuous IoT data streams for predictive insights, fault detection, and grid self-healing, reducing renewable energy waste.",
+    "technologies": ["SAS Viya", "Python", "Time Series", "IoT Analytics"],
+    "github": "https://communities.sas.com/t5/SAS-Hackathon-Team-Profiles-Past/LUCID-The-Nervous-System-of-the-Smart-Grid/ta-p/973750",
+    "featured": true
+  },
+  {
+    "name": "PL Goals Prediction",
+    "category": "Machine Learning",
+    "description": "Developed a custom prediction algorithm using Python to forecast football match goals using shots on target by Premier League teams.",
+    "technologies": ["Pandas", "Scikit-learn"],
+    "github": "https://github.com/lemonmelonn/pl_goals_prediction",
+    "featured": false
+  },
+  {
+    "name": "Partner Reconciliation Assitance",
+    "category": "Automation",
+    "description": "An upload-based reconciliation tool built at MoneyMatch that preprocesses and compares transaction records, letting the finance team reconcile any month in around 5 seconds and clearing multi-month backlogs from over 70 partners.",
+    "technologies": ["Python", "Pandas", "Streamlit", "Automation"],
+    "featured": false
+  },
+  {
+    "name": "n8n Balance & COI Calculation",
+    "category": "Automation",
+    "description": "Automated partner balance and COI calculations using n8n, cutting daily processing from over 2 hours to 10 minutes and eliminating 100% of the manual workload for the operations team.",
+    "technologies": ["n8n", "Python", "Automation"],
+    "featured": false
   }
 ]

@@ -1,8 +1,13 @@
 {
   "name": "Devan Asokan",
-  "headline": "Aspiring Data Scientist | Data and AI Enthusiast",
+  "headline": "Aspiring Data Scientist | Data & AI Enthusiast",
+  "tagline": "Turning messy data into decisions with machine learning, automation, and a little bit of curiosity.",
+  "location": "Kuala Lumpur, Malaysia",
   "email": "devanasokan@gmail.com",
   "phone": "+6017-6120969",
-  "linkedin": "My LinkedIn",
-  "github": "Github"
+  "socials": {
+    "github": "https://github.com/lemonmelonn",
+    "linkedin": "https://www.linkedin.com/in/devan-asokan",
+    "email": "mailto:devanasokan@gmail.com"
+  }
 }
