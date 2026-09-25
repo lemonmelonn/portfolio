@@ -1,15 +1,16 @@
 [
-  {
-    "name": "UMDAC Datathon 2024",
-    "result": "FINALIST",
-    "date": "December 2024",
-    "description": "Applied statistical analysis and machine learning to uncover insights from a cryptocurrency dataset. Project includes time-series analysis, risk profiling, and close price prediction to support smarter trading strategies and financial decision-making."
-  },
+  
   {
     "name": "SAS Hackathon 2025",
     "result": "GLOBAL CHAMPION (Energy Track)",
     "start_date": "September 2025",
     "end_date": "October 2025",
     "description": "Developed LUCID, a smart-grid analytics solution during the SAS Hackathon 2025, using SAS Viya and open-source tools to analyse continuous IoT data streams, enabling predictive insights, fault detection, grid self-healing capabilities, reduced renewable energy waste, and improved operational efficiency."
+  },
+  {
+    "name": "UMDAC Datathon 2024",
+    "result": "FINALIST",
+    "date": "December 2024",
+    "description": "Applied statistical analysis and machine learning to uncover insights from a cryptocurrency dataset. Project includes time-series analysis, risk profiling, and close price prediction to support smarter trading strategies and financial decision-making."
   }
 ]
