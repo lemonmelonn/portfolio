@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { profile } from "@/lib/data";
+import { profile, asset } from "@/lib/data";
 import {
   PlayIcon,
   PauseIcon,
@@ -48,7 +48,7 @@ export default function PlayerBar() {
       <div className="flex items-center gap-3 w-1/3 min-w-0">
         <div className="w-12 h-12 rounded bg-gradient-to-br from-spotify-green/40 to-spotify-lightGray flex items-center justify-center shrink-0">
           <img
-            src="/assets/tech.jpg"
+            src={asset("/assets/tech.jpg")}
             alt="Now playing"
             className="w-full h-full object-cover rounded"
           />

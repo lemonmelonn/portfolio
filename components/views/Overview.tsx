@@ -7,6 +7,7 @@ import {
   workExperience,
   skills,
   competitions,
+  asset,
 } from "@/lib/data";
 import { PlayIcon, CodeIcon, BriefcaseIcon, BoltIcon, SendIcon, TrophyIcon } from "../icons";
 import type { TabId } from "../TabContext";
@@ -71,7 +72,7 @@ export default function Overview() {
           </div>
           <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-full border-4 border-white/10 shadow-2xl md:h-52 md:w-52">
             <img
-              src="/assets/profile.jpeg"
+              src={asset("/assets/profile.jpeg")}
               alt={profile.name}
               className="h-full w-full object-cover"
             />

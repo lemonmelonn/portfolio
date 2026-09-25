@@ -6,6 +6,16 @@ import eduJson from "@/data/edu.json";
 import competitionsJson from "@/data/competitions.json";
 import extracurricularJson from "@/data/extracurricular.json";
 
+/**
+ * Prefix a public asset path with the deploy base path so it resolves
+ * correctly under GitHub Pages (e.g. "/portfolio") and locally ("").
+ * Usage: asset("/assets/profile.jpeg")
+ */
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+export function asset(path: string): string {
+  return `${BASE_PATH}${path}`;
+}
+
 export type Profile = {
   name: string;
   headline: string;

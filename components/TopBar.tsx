@@ -2,7 +2,7 @@
 
 import { useTab } from "./TabContext";
 import { NAV_ITEMS } from "./nav";
-import { profile } from "@/lib/data";
+import { profile, asset } from "@/lib/data";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -46,7 +46,7 @@ export default function TopBar() {
         </button>
         <div className="flex items-center gap-2 rounded-full bg-black/60 py-1 pl-1 pr-3">
           <img
-            src="/assets/profile.jpeg"
+            src={asset("/assets/profile.jpeg")}
             alt={profile.name}
             className="w-7 h-7 rounded-full object-cover"
           />
