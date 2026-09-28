@@ -16,7 +16,8 @@ const stats = [
   { label: "Projects", value: `${projects.length}` },
   { label: "Past Roles", value: `${workExperience.length}` },
   { label: "Skills", value: `${skills.technical_skills_and_tools.length}+` },
-  { label: "Awards", value: `${competitions.length}` },
+  //{ label: "Awards", value: `${competitions.length}` },
+  { label: "Awards", value: `3` },
 ];
 
 const quickCards: {
@@ -48,7 +49,7 @@ export default function Overview() {
               Now Playing
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white">
-              Hi, I&apos;m <span className="text-spotify-green">{profile.name}</span>
+              Hi, I&apos;m <span className="text-spotify-green">{profile.name.split(" ")[0]}</span>
             </h1>
             <p className="text-sm font-semibold text-white/90">{profile.headline}</p>
             <p className="text-sm md:text-base leading-relaxed text-spotify-textMuted">
