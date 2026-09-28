@@ -79,7 +79,7 @@ export default function Contact() {
               rows={5}
               value={form.message}
               onChange={update("message")}
-              placeholder="Tell me about your project or opportunity..."
+              placeholder="Your message here..."
               className="resize-none rounded-md border border-white/5 bg-spotify-lightGray px-3 py-2.5 text-sm text-white placeholder:text-spotify-textMuted focus:outline-none focus:ring-1 focus:ring-spotify-green"
             />
           </label>

@@ -2,10 +2,13 @@
   "technical_skills_and_tools": [
     "Python",
     "Java",
+    "Streamlit",
+    "Dash",
     "Data Pre-Processing",
     "Natural Language Processing",
     "R Programming",
-    "Machine / Deep Learning",
+    "Machine Learning",
+    "Deep Learning",
     "Statistical Analysis",
     "SAS Viya",
     "SQL",
@@ -21,13 +24,5 @@
     "REST/API Integration",
     "Time Series Forecasting",
     "Hugging Face"
-  ],
-  "soft_skills": [
-    "Credit Risk Modeling",
-    "Fraud Detection",
-    "Customer Analytics",
-    "Marketing Analytics",
-    "Supply Chain Analytics",
-    "Financial Services"
   ]
 }

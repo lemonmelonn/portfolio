@@ -122,7 +122,7 @@ export default function Overview() {
       {/* Featured projects */}
       <section className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-2xl font-bold tracking-tight text-white">Featured work</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-white">Featured Work</h2>
           <button
             onClick={() => setActiveTab("projects")}
             className="text-xs font-bold text-spotify-textMuted transition-colors hover:text-white"
@@ -152,7 +152,7 @@ export default function Overview() {
 
       {/* Awards strip */}
       <section className="flex flex-col gap-4">
-        <h2 className="text-2xl font-bold tracking-tight text-white">Recent wins</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-white">Awards and Wins</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {competitions.map((c) => (
             <div
