@@ -5,7 +5,7 @@
     "cgpa": "3.85",
     "achievement": "Vice Chancellor’s List 2024/25",
     "start_date": "November 2024",
-    "end_date": "Present",
+    "end_date": "October 2026",
     "relevant_modules": [
       "Programming for Data Analysis",
       "Data Management",
@@ -13,7 +13,7 @@
       "Data Structures",
       "Data Mining and Predictive Modelling",
       "Business Intelligence Systems",
-      "Text Analytics",
+      "Text Analytics and Semantic Analysis",
       "Optimization and Deep Learning",
       "Database Security Systems"
     ]
@@ -23,6 +23,7 @@
     "qualification": "Diploma in ICT (Data Informatics)",
     "institution": "Asia Pacific University",
     "cgpa": "3.71",
+    "achievement":"Distinction",
     "start_date": "August 2022",
     "end_date": "October 2024",
     "relevant_modules": [
@@ -37,6 +38,8 @@
     "qualification": "Sijil Pelajaran Malaysia 2021 (SPM)",
     "institution": "SMK Seksyen 4 Bandar Kinrara",
     "grade": "SPM: 9A",
-    "date": "March 2022"
+    "achievement": "Straight As",
+    "start_date": "January 2017",
+    "end_date": "March 2022"
   }
 ]

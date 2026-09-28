@@ -48,7 +48,7 @@ export default function Overview() {
               Now Playing
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white">
-              Hi, I&apos;m <span className="text-spotify-green">{profile.name.split(" ")[0]}</span>
+              Hi, I&apos;m <span className="text-spotify-green">{profile.name}</span>
             </h1>
             <p className="text-sm font-semibold text-white/90">{profile.headline}</p>
             <p className="text-sm md:text-base leading-relaxed text-spotify-textMuted">
@@ -152,7 +152,7 @@ export default function Overview() {
 
       {/* Awards strip */}
       <section className="flex flex-col gap-4">
-        <h2 className="text-2xl font-bold tracking-tight text-white">Awards and Wins</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-white">Hackathon Wins</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {competitions.map((c) => (
             <div
