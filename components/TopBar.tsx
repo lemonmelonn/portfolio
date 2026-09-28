@@ -6,6 +6,7 @@ import { profile } from "@/lib/data";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
+  DownloadIcon,
   GithubIcon,
 } from "./icons";
 
@@ -37,6 +38,13 @@ export default function TopBar() {
           className="hidden sm:inline-flex items-center gap-2 rounded-full bg-white/10 hover:bg-white/20 px-4 py-2 text-xs font-semibold text-white transition-colors"
         >
           <GithubIcon className="w-4 h-4" /> GitHub
+        </a>
+        <a
+          href="/assets/resume.pdf"
+          download
+          className="hidden sm:inline-flex items-center gap-2 rounded-full bg-white/10 hover:bg-white/20 px-4 py-2 text-xs font-semibold text-white transition-colors"
+        >
+          <DownloadIcon className="w-4 h-4" /> Resume
         </a>
         <button
           onClick={() => setActiveTab("contact")}

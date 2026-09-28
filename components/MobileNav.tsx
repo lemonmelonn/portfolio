@@ -7,7 +7,7 @@ export default function MobileNav() {
   const { activeTab, setActiveTab } = useTab();
 
   return (
-    <nav className="md:hidden fixed bottom-[72px] left-0 right-0 z-30 border-t border-white/5 bg-spotify-black/95 backdrop-blur-md">
+    <nav className="md:hidden fixed bottom-0 left-0 right-0 z-30 border-t border-white/5 bg-spotify-black/95 backdrop-blur-md">
       <div className="flex items-stretch justify-around">
         {NAV_ITEMS.map((item) => {
           const Icon = item.icon;

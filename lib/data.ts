@@ -87,8 +87,9 @@ export const skillCategories: { title: string; items: string[] }[] = [
   {
     title: "ML & AI",
     items: [
-      "Machine / Deep Learning",
+      "Machine Learning",
       "PyTorch",
+      "Deep Learning",
       "Transformers",
       "Hugging Face",
       "Natural Language Processing",
@@ -116,5 +117,15 @@ export const skillCategories: { title: string; items: string[] }[] = [
       "Microsoft Excel",
       "REST/API Integration",
     ],
+  },
+  {
+    title: "Soft Skills",
+    items: [
+      "Team Leadership", 
+      "Project and Team Management", 
+      "Time Management",
+      "Adaptability and Flexibility",
+      "Communication", 
+      "Problem Solving"],
   },
 ];
