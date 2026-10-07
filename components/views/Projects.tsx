@@ -78,16 +78,24 @@ export default function Projects() {
                     {t}
                   </span>
                 ))}
-                <a
-                  href={p.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="ml-auto flex items-center gap-1.5 text-xs font-bold text-white transition-colors hover:text-spotify-green"
-                >
-                  <GithubIcon className="h-4 w-4" />
-                  <span>Repo</span>
-                  <ExternalIcon className="h-3 w-3" />
-                </a>
+                {(p.github || p.link) && (
+                  <a
+                    href={p.github ?? p.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="ml-auto flex items-center gap-1.5 text-xs font-bold text-white transition-colors hover:text-spotify-green"
+                  >
+                    {p.github ? (
+                      <>
+                        <GithubIcon className="h-4 w-4" />
+                        <span>Repo</span>
+                      </>
+                    ) : (
+                      <span>View</span>
+                    )}
+                    <ExternalIcon className="h-3 w-3" />
+                  </a>
+                )}
               </div>
             </article>
           ))}
