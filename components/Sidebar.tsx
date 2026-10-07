@@ -57,7 +57,7 @@ export default function Sidebar() {
 
         <div className="mt-auto rounded-lg bg-spotify-darkGray border border-white/5 p-4 flex flex-col gap-2">
           <span className="text-xs font-bold uppercase tracking-wider text-spotify-textMuted">
-            Status
+            Status - Fresh Graduate
           </span>
           <p className="text-xs text-spotify-textMuted leading-relaxed">
             Open to data science and machine learning opportunities.

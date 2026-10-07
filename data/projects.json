@@ -8,11 +8,11 @@
     "featured": true
   },
   {
-    "name": "LUCID Smart-Grid Analytics",
+    "name": "LUCID – The Nervous System of the Smart Grid",
     "category": "Time Series Forecasting",
     "description": "Global Champion (Energy Track) at the SAS Hackathon 2025. A smart-grid analytics solution built with SAS Viya and open-source tooling that analyses continuous IoT data streams for predictive insights, fault detection, and grid self-healing, reducing renewable energy waste.",
     "technologies": ["SAS Viya", "Python", "Time Series", "IoT Analytics"],
-    "github": "https://communities.sas.com/t5/SAS-Hackathon-Team-Profiles-Past/LUCID-The-Nervous-System-of-the-Smart-Grid/ta-p/973750",
+    "link": "https://communities.sas.com/t5/SAS-Hackathon-Team-Profiles-Past/LUCID-The-Nervous-System-of-the-Smart-Grid/ta-p/973750",
     "featured": true
   },
   {
